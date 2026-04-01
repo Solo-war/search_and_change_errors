@@ -1,0 +1,31 @@
+﻿id,feature,error_type,description
+39,(row),duplicate,Дубликат (кроме id) с id=302
+175,(row),duplicate,Дубликат (кроме id) с id=301
+265,(row),duplicate,Дубликат (кроме id) с id=300
+298,(row),duplicate,Дубликат (кроме id) с id=299
+299,(row),duplicate,Дубликат (кроме id) с id=298
+300,(row),duplicate,Дубликат (кроме id) с id=265
+301,(row),duplicate,Дубликат (кроме id) с id=175
+302,(row),duplicate,Дубликат (кроме id) с id=39
+3,children_existence/family_members,logic,Нарушение логической связи между количеством детей и членов семьи
+13,children_existence/family_members,logic,Нарушение логической связи между количеством детей и членов семьи
+27,children_existence/family_members,logic,Нарушение логической связи между количеством детей и членов семьи
+147,children_existence/family_members,logic,Нарушение логической связи между количеством детей и членов семьи
+85,educaction,missing,Пустое значение уровня образования
+138,educaction,missing,Пустое значение уровня образования
+154,educaction,missing,Пустое значение уровня образования
+168,educaction,missing,Пустое значение уровня образования
+177,educaction,missing,Пустое значение уровня образования
+191,educaction,missing,Пустое значение уровня образования
+198,educaction,missing,Пустое значение уровня образования
+228,educaction,missing,Пустое значение уровня образования
+240,educaction,missing,Пустое значение уровня образования
+242,educaction,missing,Пустое значение уровня образования
+291,city,missing,Пустое значение города
+200,age,range,Возраст вне допустимого диапазона
+246,age,range,Возраст вне допустимого диапазона
+277,age,range,Возраст вне допустимого диапазона
+36,city,typo,Орфографическая ошибка: префикс «г.»
+53,city,typo,Орфографическая ошибка: префикс «г.»
+112,city,typo,Орфографическая ошибка: префикс «г.»
+195,city,typo,Орфографическая ошибка: префикс «г.»

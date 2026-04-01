@@ -1,0 +1,30 @@
+﻿row_number_csv,id,field,error_type,current_value,expected_rule
+7,6,english_level,typo_or_invalid_category,B3,"english_level ∈ {A1,A2,B1,B2,C1,C2}"
+10,9,desired_salary,wrong_type,one hundred thousand,desired_salary — целое число (RUB)
+14,13,education,missing_value,,"education ∈ {secondary,bachelor,master,phd}"
+27,26,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=311 (строка 312)
+35,34,age,out_of_range,15,18 ≤ age ≤ 55
+46,45,experience_years,logical_inconsistency,40,0 ≤ experience_years ≤ age-16
+52,51,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=312 (строка 313)
+69,68,education,missing_value,,"education ∈ {secondary,bachelor,master,phd}"
+76,75,city,typo_or_invalid_category,Москау,city — одно из допустимых значений (см. легенду)
+91,90,education,missing_value,,"education ∈ {secondary,bachelor,master,phd}"
+100,99,experience_years,logical_inconsistency,40,0 ≤ experience_years ≤ age-16
+102,101,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=313 (строка 314)
+121,120,desired_salary,wrong_type,90k,desired_salary — целое число (RUB)
+147,146,age,out_of_range,120,18 ≤ age ≤ 55
+152,151,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=314 (строка 315)
+163,162,education,typo_or_invalid_category,bachalor,"education ∈ {secondary,bachelor,master,phd}"
+175,174,education,missing_value,,"education ∈ {secondary,bachelor,master,phd}"
+189,188,experience_years,logical_inconsistency,41,0 ≤ experience_years ≤ age-16
+203,202,education,missing_value,,"education ∈ {secondary,bachelor,master,phd}"
+217,216,remote_preference,typo_or_invalid_category,yess,"remote_preference ∈ {yes,no}"
+232,231,experience_years,logical_inconsistency,40,0 ≤ experience_years ≤ age-16
+260,259,education,missing_value,,"education ∈ {secondary,bachelor,master,phd}"
+268,267,desired_salary,wrong_type,fifty thousand,desired_salary — целое число (RUB)
+281,280,age,out_of_range,9,18 ≤ age ≤ 55
+301,300,english_level,typo_or_invalid_category,C3,"english_level ∈ {A1,A2,B1,B2,C1,C2}"
+312,311,ALL_FIELDS,duplicate_record,—,Запись дублирует id=26 (строка 27)
+313,312,ALL_FIELDS,duplicate_record,—,Запись дублирует id=51 (строка 52)
+314,313,ALL_FIELDS,duplicate_record,—,Запись дублирует id=101 (строка 102)
+315,314,ALL_FIELDS,duplicate_record,—,Запись дублирует id=151 (строка 152)

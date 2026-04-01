@@ -1,0 +1,6 @@
+﻿dataset,source_file,row_number_source,record_id,field,error_type,current_value,fixed_value,expected_rule
+movielens_items,ml-100k/ml-100k/u.item,267,267,imdb_url,missing_value,,row_removed,imdb_url должно быть заполнено для карточки фильма
+movielens_items,ml-100k/ml-100k/u.item,267,267,release_date,missing_value,,row_removed,release_date должно быть заполнено для карточки фильма
+movielens_items,ml-100k/ml-100k/u.item,267,267,title,placeholder_value,unknown,row_removed,title должен содержать реальное название фильма
+movielens_items,ml-100k/ml-100k/u.item,1358,1358,imdb_url,missing_value,,http://us.imdb.com/M/title-exact?The%20Deadly%20Cure%20(1996),imdb_url должно быть заполнено валидной ссылкой на IMDb
+movielens_items,ml-100k/ml-100k/u.item,1359,1359,imdb_url,missing_value,,http://us.imdb.com/M/title-exact?Boys%20in%20Venice%20(1996),imdb_url должно быть заполнено валидной ссылкой на IMDb

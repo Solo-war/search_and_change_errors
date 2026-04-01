@@ -1,0 +1,6 @@
+﻿dataset,source_file,source_rows,cleaned_rows,errors_found,cleaned_file,errors_map_file
+adult,adult/adult.data,32561,32537,4286,Laba3\5\output\adult\adult_cleaned.csv,Laba3\5\output\adult\adult_errors_map.csv
+bank_marketing,bank-marketing/bank/bank-full.csv,45211,45211,2145,Laba3\5\output\bank_marketing\bank_marketing_cleaned.csv,Laba3\5\output\bank_marketing\bank_marketing_errors_map.csv
+bank_marketing_additional,bank-marketing/bank-additional/bank-additional/bank-additional-full.csv,41188,41174,12732,Laba3\5\output\bank_marketing_additional\bank_marketing_additional_cleaned.csv,Laba3\5\output\bank_marketing_additional\bank_marketing_additional_errors_map.csv
+default_credit,default-of-credit-card-clients.xls,30000,30000,399,Laba3\5\output\default_credit\default_credit_cleaned.csv,Laba3\5\output\default_credit\default_credit_errors_map.csv
+movielens_items,ml-100k/ml-100k/u.item,1682,1681,5,Laba3\5\output\movielens_items\movielens_items_cleaned.csv,Laba3\5\output\movielens_items\movielens_items_errors_map.csv

@@ -1,0 +1,32 @@
+﻿row_number_csv,id,field,error_type,current_value,expected_rule
+7,6,district,typo_or_invalid_category,Централный,district ∈ список районов (см. легенду)
+11,10,district,missing_value,,district ∈ список районов (см. легенду)
+14,13,rooms,wrong_type,two,"rooms — целое число {1,2,3,4}"
+22,21,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=331 (строка 332)
+35,34,area_m2,out_of_range,0,18 ≤ area_m2 ≤ 140
+43,42,floor,logical_inconsistency,8,1 ≤ floor ≤ floors_total
+49,48,district,missing_value,,district ∈ список районов (см. легенду)
+62,61,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=332 (строка 333)
+76,75,condition,typo_or_invalid_category,exellent,"condition ∈ {needs_renovation, good, excellent, new_building}"
+90,89,district,missing_value,,district ∈ список районов (см. легенду)
+99,98,floor,logical_inconsistency,32,1 ≤ floor ≤ floors_total
+122,121,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=333 (строка 334)
+148,147,district,missing_value,,district ∈ список районов (см. легенду)
+158,157,metro_distance_km,wrong_type,1.5km,metro_distance_km — число (км)
+166,165,area_m2,out_of_range,-5,18 ≤ area_m2 ≤ 140
+173,172,district,typo_or_invalid_category,Севреный,district ∈ список районов (см. легенду)
+179,178,condition,missing_value,,"condition ∈ {needs_renovation, good, excellent, new_building}"
+191,190,floor,logical_inconsistency,19,1 ≤ floor ≤ floors_total
+202,201,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=334 (строка 335)
+217,216,condition,typo_or_invalid_category,newbuilding,"condition ∈ {needs_renovation, good, excellent, new_building}"
+223,222,condition,missing_value,,"condition ∈ {needs_renovation, good, excellent, new_building}"
+242,241,floor,logical_inconsistency,23,1 ≤ floor ≤ floors_total
+261,260,condition,missing_value,,"condition ∈ {needs_renovation, good, excellent, new_building}"
+278,277,year_built,wrong_type,ten,year_built — целое число (1965–2026)
+289,288,area_m2,out_of_range,999,18 ≤ area_m2 ≤ 140
+301,300,district,typo_or_invalid_category,Октябрский,district ∈ список районов (см. легенду)
+307,306,condition,missing_value,,"condition ∈ {needs_renovation, good, excellent, new_building}"
+332,331,ALL_FIELDS,duplicate_record,—,Запись дублирует id=21 (строка 22)
+333,332,ALL_FIELDS,duplicate_record,—,Запись дублирует id=61 (строка 62)
+334,333,ALL_FIELDS,duplicate_record,—,Запись дублирует id=121 (строка 122)
+335,334,ALL_FIELDS,duplicate_record,—,Запись дублирует id=201 (строка 202)

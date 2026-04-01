@@ -1,0 +1,33 @@
+﻿row_number_csv,id,field,error_type,current_value,expected_rule
+7,6,gender,typo_or_invalid_category,famale,"gender ∈ {male,female}"
+10,9,region,missing_value,,region ∈ список регионов (см. легенду)
+14,13,avg_order_value_rub,wrong_type,three thousand,avg_order_value_rub — число (RUB)
+24,23,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=341 (строка 342)
+35,34,age,out_of_range,12,18 ≤ age ≤ 65
+43,42,orders_last_6m,logical_inconsistency,-3,0 ≤ orders_last_6m ≤ 25
+49,48,region,missing_value,,region ∈ список регионов (см. легенду)
+57,56,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=342 (строка 343)
+76,75,region,typo_or_invalid_category,Севeр,region ∈ список регионов (см. легенду)
+91,90,region,missing_value,,region ∈ список регионов (см. легенду)
+99,98,orders_last_6m,logical_inconsistency,999,0 ≤ orders_last_6m ≤ 25
+122,121,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=343 (строка 344)
+134,133,region,missing_value,,region ∈ список регионов (см. легенду)
+146,145,age,out_of_range,140,18 ≤ age ≤ 65
+158,157,orders_last_6m,wrong_type,ten,orders_last_6m — целое число
+173,172,preferred_category,typo_or_invalid_category,electornics,preferred_category ∈ список категорий (см. легенду)
+178,177,preferred_category,missing_value,,preferred_category ∈ список категорий (см. легенду)
+191,190,days_since_last_order,logical_inconsistency,-10,0 ≤ days_since_last_order ≤ 240
+203,202,preferred_category,missing_value,,preferred_category ∈ список категорий (см. легенду)
+212,211,ALL_FIELDS,duplicate_record,—,Запись дублируется с id=344 (строка 345)
+217,216,loyalty_tier,typo_or_invalid_category,goldd,"loyalty_tier ∈ {bronze,silver,gold,platinum}"
+242,241,days_since_last_order,logical_inconsistency,999,0 ≤ days_since_last_order ≤ 240
+260,259,preferred_category,missing_value,,preferred_category ∈ список категорий (см. легенду)
+278,277,days_since_last_order,wrong_type,yesterday,days_since_last_order — целое число (дни)
+281,280,age,out_of_range,-1,18 ≤ age ≤ 65
+301,300,target_repeat_purchase_3m,typo_or_invalid_category,maybe,"target_repeat_purchase_3m ∈ {yes,no}"
+313,312,preferred_category,missing_value,,preferred_category ∈ список категорий (см. легенду)
+332,331,preferred_category,typo_or_invalid_category,sportss,preferred_category ∈ список категорий (см. легенду)
+342,341,ALL_FIELDS,duplicate_record,—,Запись дублирует id=23 (строка 24)
+343,342,ALL_FIELDS,duplicate_record,—,Запись дублирует id=56 (строка 57)
+344,343,ALL_FIELDS,duplicate_record,—,Запись дублирует id=121 (строка 122)
+345,344,ALL_FIELDS,duplicate_record,—,Запись дублирует id=211 (строка 212)
